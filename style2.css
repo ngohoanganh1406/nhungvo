@@ -1,0 +1,35 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+    
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /* Thay thế 'your-background-image.jpg' bằng đường dẫn tới hình ảnh nền của mày */
+    background-image: url('./nen2.jpg'); 
+    background-size: cover; /* Để hình ảnh phủ kín toàn bộ trang */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Pacifico, cursive;
+
+      
+}
+
+.letter {
+   
+    color: white ;
+ 
+
+    
+    padding: 20px; /* Khoảng cách bên trong bức thư */
+    width: 80%; /* Độ rộng tối đa của bức thư */
+    margin: auto; /* Căn giữa bức thư */
+    
+}
+.letter {font-size: 200%;}
+.letter>p {font-size: 150%;}
+
